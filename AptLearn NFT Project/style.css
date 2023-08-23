@@ -1,0 +1,403 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@200;400;500;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  --COLOR: rgba(39, 85, 235, 0.833);
+}
+
+body {
+  background-image: url(./images/bg.png);
+  color: whitesmoke;
+  font-family: "Jost", sans-serif;
+}
+
+.header {
+  margin: auto;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1440px;
+  padding: 0 5%;
+}
+
+h2 {
+  margin-right: auto;
+}
+
+.nav-list {
+  display: flex;
+}
+
+ul li {
+  display: inline-block;
+  padding: 1rem;
+}
+
+.contact-button {
+  margin-left: 2rem;
+  background-color: var(--COLOR);
+  color: whitesmoke;
+  padding: 0.5rem;
+  width: 80px;
+  border: none;
+  border-radius: 9px;
+}
+
+/* // MAIN // */
+
+/* // HEADER // */
+
+.first-container div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.first-container > div:last-of-type {
+  align-items: center;
+}
+
+.first-container {
+  display: flex;
+  gap: 50px;
+  max-width: 1440px;
+  margin: auto;
+  margin-top: 50px;
+  padding: 0 5% 0;
+}
+
+.collectibles h2 {
+  color: var(--COLOR);
+}
+
+.collectibles p:first-of-type {
+  font-size: 3rem;
+  padding: 1rem 0;
+}
+
+.collectibles p:last-of-type {
+  padding: 1rem 0;
+}
+
+.collectibles button {
+  background-color: #ffffff00;
+  border: 2px solid var(--COLOR);
+  border-radius: 10px;
+  color: var(--COLOR);
+  padding: 10px;
+  width: 150px;
+  font-size: large;
+}
+
+.image1-background-container {
+  max-width: 400px;
+  background-color: rgba(128, 128, 128, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+  border-radius: 10px;
+}
+
+.image1-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 80%;
+}
+
+.main-image {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.heart-image-container {
+  position: absolute;
+  background-color: #fff;
+  width: 90px;
+  height: 30px;
+  top: 5px;
+  left: 5px;
+  border-radius: 20px;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.image1-background-container div:last-of-type {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image1-background-container div:last-of-type h3 {
+  margin-right: 7rem;
+}
+
+.image1-background-container div:last-of-type div {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+.image1-background-container div:last-of-type div a {
+  background-color: #202443;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  padding: 4px;
+  width: 6rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* // SECOND SECTION // */
+
+.second-container {
+  max-width: 1440px;
+  margin: auto;
+  padding: 0 5%;
+}
+
+.second-container .second-container-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.second-container-header a {
+  margin-right: 4rem;
+  text-decoration: none;
+  border: 2px solid var(--COLOR);
+  border-radius: 10px;
+  width: 120px;
+  height: 40px;
+  padding: 5px;
+  text-align: center;
+}
+
+.second-container-header div h2 {
+  padding-bottom: 1rem;
+}
+
+.card-container {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.card {
+  width: 400px;
+}
+
+.second-container-image {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.card-bottom {
+  width: 100%;
+  background-color: #202443b5;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  padding: 10px;
+  font-size: 0.9rem;
+}
+
+.card-bottom span {
+  display: flex;
+  align-items: end;
+}
+
+.card-bottom span img {
+  width: 70px;
+  padding: 10px;
+}
+
+.card-bottom h3 {
+  padding: 5px;
+}
+
+.card-bottom div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3px;
+}
+
+.card-bottom div p {
+  font-size: smaller;
+}
+
+.card-bottom div a {
+  background-color: var(--COLOR);
+  color: #fff;
+  padding: 10px;
+  border-radius: 20px;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* // THIRD SECTION // */
+
+.third-container {
+  max-width: 1440px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background-color: #1f2b3e64;
+  border-radius: 20px;
+  padding: 0 5%;
+}
+
+.third-container-header {
+  padding: 20px;
+}
+
+.third-container-header p {
+  margin: 25px auto;
+}
+
+.card3-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-between;
+  padding: 30px;
+  margin: 0 10px;
+}
+
+.card3 {
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #202443;
+  border-radius: 10px;
+}
+
+.card3 img {
+  width: 50px;
+}
+
+footer {
+  max-width: 1440px;
+  margin: auto;
+  padding: 0 5%;
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+footer div ul li {
+  display: flex;
+  padding-left: 0;
+}
+
+footer div {
+  justify-content: flex-start;
+}
+
+.part1 {
+  max-width: 450px;
+}
+
+.part1 p {
+  padding-top: 1.5rem;
+}
+
+.part4 div {
+  background-color: #fff;
+  width: 300px;
+  height: 55px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+
+.part4 div input {
+  width: 100%;
+  border: none;
+}
+
+.part4 a {
+  width: 50%;
+  padding: 1.3rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  background-color: var(--COLOR);
+  border: none;
+  border-radius: 10px;
+}
+
+/* // RESPONSIVE SCREENS // */
+
+@media (max-width: 1000px) {
+  .nav-list {
+    display: none;
+  }
+
+  .barIcon {
+    font-size: 2rem;
+  }
+
+  .first-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .image1-background-container {
+    max-width: 500px;
+  }
+
+  .card-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .card .main-image {
+    height: 400px;
+    object-fit: cover;
+  }
+
+  .card3-container {
+    justify-content: center;
+  }
+
+  footer {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .part1 {
+    text-align: center;
+  }
+}
